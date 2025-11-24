@@ -1,1 +1,6 @@
 # DAT_490_Marketing
+This project was made as a way to analyze different marketing efforts and their respective results.
+
+It uses a dataset that has information about where they did their marketing, how many google clicks they got from their results, how many clicks from the campaign, total impressions, total amount spent, total amount gained among other information.
+
+We used 3 different models, Random Forest and XGBoost so we could understand the data, the feature importances, and how each variable affected the outcome depending on it's values (partial dependence graphs, SHAP graphs, correlation graphs, among others). Finally we made a deep learning model to see if a more complex model found patterns that simple models couldn't discover, if this was the case we would have explored the data more to see if certain data manipulations would yield better results. However, the deep learning model actually performed substantially worse than the simple models indicating that what the explainable models said was correct.
